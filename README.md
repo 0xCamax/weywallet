@@ -37,6 +37,12 @@ Está diseñada para ser **compatible con estándares abiertos** como **EIP-6963
   - Estrategias de inversión (DCA, reclamo de rendimientos, etc.)  
   - Procesos automatizados personalizados  
 
+## 🔗 Repositorios Relacionados  
+
+- [Chainlink Smart Account](https://github.com/0xCamax/chainlink-smart-account)  
+  Repositorio que implementa la lógica de Smart Accounts basada en EIP-7702 y ERC-4337 utilizada por esta extensión para automatización y funcionalidades avanzadas en EVM.  
+
+
 ✅ **Experiencia de usuario simplificada**  
 - Abstracción de complejidades blockchain  
 - Seguridad de alto nivel  
