@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "esnext", "deno.ns"],
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"types": ["@types/chrome"]
+	},
+	"imports": {
+		"@ethereumjs/rlp": "npm:@ethereumjs/rlp@10.0.0",
+		"@noble/hashes": "npm:@noble/hashes@^1.8.0",
+		"@noble/secp256k1": "npm:@noble/secp256k1@2.3.0",
+		"@tailwindcss/postcss": "npm:@tailwindcss/postcss@^4.1.11",
+		"@types/chrome": "npm:@types/chrome@^0.0.329",
+		"@types/node": "npm:@types/node@^24.0.12",
+		"daisyui": "npm:daisyui@^5.0.43",
+		"ethereum-cryptography": "npm:ethereum-cryptography@3.2.0",
+		"pdf-lib": "npm:pdf-lib@^1.17.1",
+		"preact": "npm:preact@^10.26.9",
+		"tailwindcss": "npm:tailwindcss@^4.1.11"
+	},
+	"tasks": {
+		"build": "deno run -A build.ts",
+		"gen_contracts": "deno run --allow-read --allow-write /home/camax/desktop/weywallet/src/common/scripts/gen_contracts.ts",
+		"test": "deno run --allow-all test.ts"
+	},
+	"nodeModulesDir": "auto"
+}
