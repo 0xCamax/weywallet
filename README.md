@@ -44,3 +44,27 @@ Está diseñada para ser **compatible con estándares abiertos** como **EIP-6963
 
 ---
 # weywallet
+
+## 🚀 Steps to Deploy  
+
+1. **Instala las dependencias**  
+   Asegúrate de tener Deno correctamente configurado en tu máquina.  
+
+2. **Genera la build de la extensión**  
+   Ejecuta la tarea de build definida en el proyecto para generar la carpeta `dist/` optimizada.  
+
+   ```bash
+   deno task build
+   ```
+
+3. **Carga la extensión en Chrome**  
+   - Abre la página de gestión de extensiones en tu navegador (`chrome://extensions/`)  
+   - Activa el Modo Desarrollador  
+   - Selecciona la opción para cargar extensiones sin empaquetar  
+   - Elige la carpeta `dist/` generada en el paso anterior  
+
+4. **Prueba la extensión**  
+   - Verifica que el popup y el sidepanel funcionen correctamente  
+   - Comprueba que la conexión con DApps y las solicitudes de firma operen de forma segura  
+
+Cuando esté lista para producción, puedes empaquetar la carpeta `dist/` y subirla a la Chrome Web Store.  
